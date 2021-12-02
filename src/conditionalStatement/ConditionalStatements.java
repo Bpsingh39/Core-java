@@ -1,5 +1,7 @@
 package conditionalStatement;
 
+import java.util.Scanner;
+
 public class ConditionalStatements {
     public String statements(int age){
         String message;
