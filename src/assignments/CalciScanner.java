@@ -51,11 +51,22 @@ public class CalciScanner {
 
         }
         public static void main(String[]args){
+            Scanner scan=new Scanner(System.in);
+            System.out.println("Press 1 ADD, Press 2 SUBSTRACTION,Press 3 MULTIPLICATION, Press 4 DIVIDE");
+            int choice=scan.nextInt();
             CalciScanner calci=new CalciScanner();
-            int add=calci.add();
-            int sub=calci.sub();
-            float multi=calci.multi();
-            float divide=calci.divide();
+            if(choice==1){
+            int add=calci.add();}
+            else if(choice==2){
+            int sub=calci.sub();}
+            else if (choice==3){
+            float multi=calci.multi();}
+            else if(choice==4){
+            float divide=calci.divide();}
+            else {
+                System.out.println("You entered invalide key");
+
+            }
 
         }
 

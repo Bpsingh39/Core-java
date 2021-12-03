@@ -57,7 +57,7 @@ public class Calciwithchoice {
             System.out.println(output);
         }
         else {
-            System.out.println("You enter invalid key");
+            System.out.println("You entered invalid key");
         }
 
     }
